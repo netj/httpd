@@ -185,18 +185,18 @@ Content-language: ko
 Content-type: text/html; charset=UTF-8
 Body:----------ko--
 <!--#set var="CONTENT_LANGUAGE" value="ko"
---><!--#set var="TITLE" value="접근이 거부됨!"
+--><!--#set var="TITLE" value="접근할 수 없음!"
 --><!--#include virtual="include/top.html" -->
 
   <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
 
-   요청한 디렉토리에 접근할 수 있는 권한이 없습니다.
-   디렉토리에 첫 페이지가 없거나 아니면 읽기 보호가 되어 있습니다.
+   요청한 디렉토리에 접근할 권한이 없습니다.
+   디렉토리에 색인이 없거나 읽을 수 없도록 잠겨 있습니다.
 
   <!--#else -->
 
-   요청한 객체에 접근할 수 있는 권한이 없습니다.
-   읽기 보호가 되어 있거나 웹서버가 읽을 수 없도록 되어 있습니다.
+   요청한 대상에 접근할 권한이 없습니다.
+   읽을 수 없도록 잠겨 있거나 서버가 읽을 수 없습니다.
 
   <!--#endif -->
 

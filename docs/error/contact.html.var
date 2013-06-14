@@ -63,8 +63,8 @@ href="mailto:<!--#echo encoding="none" var="SERVER_ADMIN" -->"
 Content-language: ko
 Content-type: text/html; charset=UTF-8
 Body:----------ko--
-만약 이것이 서버 오류라고 생각되면,
-<a href="mailto:<!--#echo encoding="none" var="SERVER_ADMIN" -->">웹 관리자</a>에게 연락하시기 바랍니다.
+이것이 서버 오류라고 생각된다면
+<a href="mailto:<!--#echo encoding="none" var="SERVER_ADMIN" -->">웹 관리자</a>에게 연락 바랍니다.
 ----------ko--
 
 Content-language: nl

@@ -110,10 +110,10 @@ Content-language: ko
 Content-type: text/html; charset=UTF-8
 Body:----------ko--
 <!--#set var="CONTENT_LANGUAGE" value="ko"
---><!--#set var="TITLE" value="형태를 결정할 수 없음!"
+--><!--#set var="TITLE" value="형태 결정 실패!"
 --><!--#include virtual="include/top.html" -->
 
-    요청한 객체의 형태 또한 여러 형태를 가지고 있어서
+    요청 대상의 형태가 또 다시 여러 형태를 가지고 있어서
     접근이 불가능합니다.
 
 <!--#include virtual="include/bottom.html" -->

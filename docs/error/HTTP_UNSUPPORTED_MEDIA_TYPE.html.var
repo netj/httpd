@@ -100,10 +100,10 @@ Content-language: ko
 Content-type: text/html; charset=UTF-8
 Body:----------ko--
 <!--#set var="CONTENT_LANGUAGE" value="ko"
---><!--#set var="TITLE" value="지원하지 않는 미디어 형식!"
+--><!--#set var="TITLE" value="미디어 형식 미지원!"
 --><!--#include virtual="include/top.html" -->
 
-    요청으로 보내온 미디어 형식을 이 서버가 지원하지 않습니다. 
+    요청한 미디어 형식을 이 서버가 지원하지 않습니다. 
 
 <!--#include virtual="include/bottom.html" -->
 ----------ko--
